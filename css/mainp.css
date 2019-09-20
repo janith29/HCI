@@ -1,0 +1,12 @@
+.fixdf{
+  background-image:linear-gradient(rgba(173, 88, 230, 0.6),rgba(112, 161, 253, 0.6),rgba(180, 86, 224, 0.6));
+  border-radius: 100px;          
+}
+.fixdf2{
+  background-image:linear-gradient(rgba(192, 230, 88, 0.6),rgba(161, 112, 253, 0.6),rgba(47, 67, 245, 0.6));
+  border-radius: 50px;          
+}
+.fixdf1{
+  background-image:linear-gradient(rgba(88, 221, 230, 0.6),rgba(220, 112, 253, 0.6),rgba(86, 219, 224, 0.6));
+  border-radius: 50px;          
+}
