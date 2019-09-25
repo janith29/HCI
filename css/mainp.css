@@ -1,12 +1,39 @@
 .fixdf{
-  background-image:linear-gradient(rgba(173, 88, 230, 0.6),rgba(112, 161, 253, 0.6),rgba(180, 86, 224, 0.6));
-  border-radius: 100px;          
+  background-image:linear-gradient(rgba(218, 88, 230, 0.301),rgba(185, 86, 224, 0.37),rgba(112, 253, 206, 0.418)),url(/img/2.jpg);
+
+  border-radius: 100px;
+  background-position: center;
+  background-attachment:fixed;
+  transition-delay: 2s;   
+  background-repeat: no-repeat;  
+
 }
 .fixdf2{
-  background-image:linear-gradient(rgba(192, 230, 88, 0.6),rgba(161, 112, 253, 0.6),rgba(47, 67, 245, 0.6));
-  border-radius: 50px;          
+  background-image:linear-gradient(rgba(88, 221, 230, 0.6),rgba(220, 112, 253, 0.6),rgba(86, 219, 224, 0.6));
+border-radius: 50px; 
+background-position: center;
+background-attachment:fixed;
+transition-delay: 2s;   
+background-repeat: no-repeat;           
 }
 .fixdf1{
   background-image:linear-gradient(rgba(88, 221, 230, 0.6),rgba(220, 112, 253, 0.6),rgba(86, 219, 224, 0.6));
-  border-radius: 50px;          
+  border-radius: 50px; 
+  background-position: center;
+  background-attachment:fixed;
+  transition-delay: 2s;   
+  background-repeat: no-repeat;           
+}
+
+.fixdf4{
+  background-image:linear-gradient(rgba(134, 134, 134, 0.6),rgba(88, 154, 199, 0.6),rgba(131, 131, 131, 0.6));
+  border-radius: 100px;   
+  background-position: center;
+  background-attachment:fixed;
+  transition-delay: 2s;   
+  background-repeat: no-repeat;         
+}
+.aboutslid{
+  background-image:linear-gradient(rgba(218, 88, 230, 0.6),rgba(112, 213, 253, 0.6),rgba(218, 88, 230, 0.6));
+  border-radius: 100px;          
 }
