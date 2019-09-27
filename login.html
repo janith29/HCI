@@ -100,22 +100,23 @@
 				<div class="col-6">
 					<form>
 						<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"
+							<label for="exampleInput2">Email address</label>
+							<input type="email" class="form-control" id="Emailwe" aria-describedby="emailHelp"
 								placeholder="Enter email">
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
 								else.</small>
 						</div>
 						<div class="form-group">
 							<label for="exampleInputPassword1">Password</label>
-							<input type="password" class="form-control" id="pass" placeholder="Password">
+							<input type="password" class="form-control" id="Password12" placeholder="Password">
 						</div>
 						<div class="form-group form-check">
 							<input type="checkbox" class="form-check-input" id="exampleCheck1">
 							<label class="form-check-label" for="exampleCheck1">Check me out</label>
-						</div>
-						<button type="submit" class="btn btn-primary" onclick="checklog()">Submit</button>
 					</form>
+
+				</div>
+				<button type="submit" class="btn btn-primary" onclick="checkloginpage()">Submit</button>
 				</div>
 			</div>
 		</div>
@@ -206,14 +207,14 @@
 	<script src="js/main.js"></script>
 	<script src="js/feed.js"></script>
 	<script>
-		function checklog() {
+		function checkloginpage() {
 
-			var usernameobj = document.getElementById("Email1");
-			var passwordobj = document.getElementById("pass");
-
-			if ((usernameobj.value == "lakshitha@gmail.com") && (passwordobj.value == "lakshitha12")) {
+			var emailobj = document.getElementById("Emailwe");
+			var passwordobj = document.getElementById("Password12");
+			
+			if ((emailobj.value == "lakshitha@gmail.com") && (passwordobj.value == "lakshitha12")) {
 				alert("Successful Login user!!!");
-				window.location = '/cart2.html';
+                window.location = '/cart2.html';
 			}
 			else {
 				alert("Incorect details!!!");
