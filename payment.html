@@ -31,44 +31,45 @@
 	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/mainp.css">
-	
-<link href="style.css" rel="stylesheet">
+
+	<link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
-		<header id="header">
-				<div class="col-12" style="background-color: black;">
-					<a style="color: white;font-weight: 700">Call us Now 0761950019</a>
+	<header id="header">
+		<div class="col-12" style="background-color: black;">
+			<a style="color: white;font-weight: 700">Call us Now 0761950019</a>
+		</div>
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<a href="#"><img src="img/logos1.png" alt="" title="" /></a>
 				</div>
-				<div class="container main-menu">
-					<div class="row align-items-center justify-content-between d-flex">
-						<div id="logo">
-							<a href="#"><img src="img/logos1.png" alt="" title="" /></a>
-						</div>
-						<nav id="nav-menu-container">
-							<ul class="nav-menu">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="aboutus.html">About Us</a></li>
-								<li><a href="allproduct.html">Product</a></li>
-							<li class="menu-has-children "><a href="">Customer</a>
-									<ul>
-										<li><a href="customer.html">Customer service</a></li>
-										<li><a href="feed.html">Feedback</a></li>
-										<li><a href="testimonials.html">Testimonials</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">Contact Us</a></li>	
-								<li><a href="cart.html" >Cart <span class="fa fa-shopping-cart"></span> <span style="background-color: rgb(205, 223, 13); font-size: 15px;">3</span> </a></li>
-								
-								<li><a href="login.html">Login</a></li>
-								<li><a href="register.html">Register</a></li>
-								<li><a href="register.html">My profile</a></li>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="allproduct.html">Product</a></li>
+						<li class="menu-has-children "><a href="">Customer</a>
+							<ul>
+								<li><a href="customer.html">Customer service</a></li>
+								<li><a href="feed.html">Feedback</a></li>
+								<li><a href="testimonials.html">Testimonials</a></li>
 							</ul>
-						</nav><!-- #nav-menu-container -->
-					</div>
-				</div>
-			</header>
+						</li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="cart.html">Cart <span class="fa fa-shopping-cart"></span> <span
+									style="background-color: rgb(205, 223, 13); font-size: 15px;">3</span> </a></li>
+
+
+						<li><a href="profile.html">My profile</a></li>
+						<li><a href="index.html">Logout</a></li>
+					</ul>
+				</nav><!-- #nav-menu-container -->
+			</div>
+		</div>
+	</header>
 	<!-- #header -->
 
 	<!-- start banner Area -->
@@ -78,11 +79,11 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-							Payment Details 
+						Payment Details
 					</h1>
 					<p class="text-white link-nav"><a href="#">Home </a> <span class="lnr lnr-arrow-right"></span> <a
-							href="#"> Shopping Cart</a><span class="lnr lnr-arrow-right"></span> <a
-							href="payment.html"> Payment Details </a></p>
+							href="#"> Shopping Cart</a><span class="lnr lnr-arrow-right"></span> <a href="payment.html">
+							Payment Details </a></p>
 				</div>
 			</div>
 		</div>
@@ -96,87 +97,89 @@
 				<div class="col-2"></div>
 				<div class="col-8" style="margin-bottom: 20px;">
 					<div class="px-4 px-lg-0">
-							<h1 class="display-4" style="text-align: center; color: blue;margin: 20px; font-weight: 500;">PAYMENT DETAILS</h1>
+						<h1 class="display-4" style="text-align: center; color: blue;margin: 20px; font-weight: 500;">
+							PAYMENT DETAILS</h1>
 						</p>
-					  </div>
-					  
-						<table align="center" cellpadding="10">
-							<tr>
-								<td>Name	:</td>
-								<td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
-							</tr>
-							
-							<tr>
-								<td>Address	:</td>
-								<td><textarea rows="3" cols="25" id="name" placeholder="enter your address"></textarea></td>
-							</tr>
-							
-							<tr>
-								<td>E-mail	:</td>
-								<td><input type="text" id="name" name="email" placeholder="Enter your e-mail"></td>
-							</tr>
-							
-							<tr>
-								<td>Phone No.	:</td>
-								<td>
-									<select id="num">
+					</div>
+
+					<table align="center" cellpadding="10">
+						<tr>
+							<td>Name :</td>
+							<td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+						</tr>
+
+						<tr>
+							<td>Address :</td>
+							<td><textarea rows="3" cols="25" id="name" placeholder="enter your address"></textarea></td>
+						</tr>
+
+						<tr>
+							<td>E-mail :</td>
+							<td><input type="text" id="name" name="email" placeholder="Enter your e-mail"></td>
+						</tr>
+
+						<tr>
+							<td>Phone No. :</td>
+							<td>
+								<select id="num">
 									<option>+ 91</option>
 									<option>+ 92</option>
 									<option>+ 93</option>
 									<option>+ 94</option>
-									</select>
+								</select>
 								<input type="text" id="number" name="phone_no" placeholder="Enter phone number">
-								</td>
-							</tr>
-							
-							<tr>
-								<td>Date	:</td>
-								<td><input type="date" id="name" name="date" placeholder="Enter date"></td>
-							</tr>
-							
-							<tr>
-								<td>Payment	:</td>
-								<td><input type="radio" name="Card" >Debit Card
-									<input type="radio" name="Card">Credit Card</td>
-							</tr>
-							
-							<tr>
-								<td>Credit Card Name	:</td>
-								<td>
-								<select id="name"> 
+							</td>
+						</tr>
+
+						<tr>
+							<td>Date :</td>
+							<td><input type="date" id="name" name="date" placeholder="Enter date"></td>
+						</tr>
+
+						<tr>
+							<td>Payment :</td>
+							<td><input type="radio" name="Card">Debit Card
+								<input type="radio" name="Card">Credit Card</td>
+						</tr>
+
+						<tr>
+							<td>Credit Card Name :</td>
+							<td>
+								<select id="name">
 									<option>----Choose----</option>
 									<option>Sampath</option>
 									<option>Viza</option>
-										
+
 								</select>
-								</td>
-							</tr>
-							
-							<tr>
-								<td>Account Number	:</td>
-								<td><input type="text" id="name" name="ac_no" placeholder="Enter account number"></td>
-							</tr>
-							
-							<tr>
-								<td>Total	:</td>
-								<td><input type="text" id="name" name="total"></td>
-							</tr>
-							
-							<tr>
-								<td align="center" colspan="2">
-									<!-- <input name="Submit" id="sub" type="submit" value="Submit"> -->
-									<div class="container">
-									<a href="paymentdetails.html" class="btn btn-dark rounded-pill py-2 btn-block">ADD TO PAYMENT</a>
-									</div>
-								</td>
-							</tr>
-						</table>
-					</div>
+							</td>
+						</tr>
+
+						<tr>
+							<td>Account Number :</td>
+							<td><input type="text" id="name" name="ac_no" placeholder="Enter account number"></td>
+						</tr>
+
+						<tr>
+							<td>Total :</td>
+							<td><input type="text" id="name" name="total"></td>
+						</tr>
+
+						<tr>
+							<td align="center" colspan="2">
+								<!-- <input name="Submit" id="sub" type="submit" value="Submit"> -->
+								<div class="container">
+									<a href="paymentdetails.html" class="btn btn-dark rounded-pill py-2 btn-block">
+										 PAYMENT</a>
+								</div>
+							</td>
+						</tr>
+					</table>
 				</div>
-
-
-				<div class="col-2"></div>
 			</div>
+
+
+			<div class="col-2"></div>
+		</div>
 		</div>
 	</section>
 	<!-- End contact-page Area -->
